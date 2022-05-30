@@ -1980,3 +1980,15 @@ ul .chart--horiz .chart__bar {
   animation-fill-mode:forwards;
 
 }
+
+.grid {
+
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-rows: masonry;
+  masonry-auto-flow: next ;
+}
+
+.positioned {
+    grid-column: 2 / 4;
+}
