@@ -1992,3 +1992,9 @@ ul .chart--horiz .chart__bar {
 .positioned {
     grid-column: 2 / 4;
 }
+
+ @media only screen and (max-width: 425px) {
+  ul .rp {
+    width: 50%;
+  }
+}
